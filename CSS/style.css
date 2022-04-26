@@ -1,0 +1,47 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Commissioner', sans-serif;
+}
+
+clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+.container-head{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #e53170;
+}
+
+.container-head p{
+    margin-bottom: 50px;
+}
+
+
+/* MAIN */
+.container-main{
+    width: 80%;
+    margin: auto;
+}
+
+.col{
+    width: 300px;
+    height: 300px;
+    background-color: lightsalmon;
+}
