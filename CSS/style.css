@@ -18,7 +18,7 @@ body{
 }
 
 /* HEADER */
-.container-head{
+.container{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -30,16 +30,12 @@ h1{
     color: #e53170;
 }
 
-.container-head p{
+h1 + p{
     margin-bottom: 50px;
 }
 
 
 /* MAIN */
-.container-main{
-    width: 75%;
-    margin: auto;
-}
 
 .col{
     width: calc(100% / 3);
